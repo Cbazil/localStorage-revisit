@@ -17,3 +17,11 @@ console.log("Storage", localStorage.myObj);
 // Converting the JSON object to the normal JavaScript Object
 let myObjDeserialized = JSON.parse(myObjSerialized);
 console.log(myObjDeserialized);
+
+// String examples
+
+localStorage.setItem('Name', 'Chad');
+
+var myName = localStorage.getItem('Name');
+
+console.log(myName);
